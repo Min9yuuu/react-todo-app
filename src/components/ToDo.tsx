@@ -4,7 +4,7 @@ import { styled } from 'styled-components';
 
 const ToDoBox = styled.div`
   width: 100%;
-  height: 80px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,8 +27,6 @@ const TextBox = styled.div`
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 `;
-
-const Text = styled.span``;
 
 const Buttonbox = styled.div`
   width: 100%;
