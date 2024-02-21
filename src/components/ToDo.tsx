@@ -18,10 +18,10 @@ const TextBox = styled.div`
   width: 100%;
   height: 50%;
   background-color: #929292;
-  color: white;
   display: flex;
   align-items: center;
   padding: 10px;
+  color: white;
   font-weight: 600;
   font-size: 24px;
   border-top-left-radius: 10px;
