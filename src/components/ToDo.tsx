@@ -21,16 +21,14 @@ const TextBox = styled.div`
   display: flex;
   align-items: center;
   padding: 10px;
-
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 `;
 
-const Text = styled.span`
-  color: white;
-  font-weight: 600;
-  font-size: 24px;
-`;
+const Text = styled.span``;
 
 const Buttonbox = styled.div`
   width: 100%;
@@ -75,7 +73,7 @@ function ToDo({ text, category, id }: IToDo) {
     <>
       <ToDoBox>
         <TextBox>
-          <Text>{text}</Text>
+          <span>{text}</span>
         </TextBox>
         <Buttonbox>
           {categories.map(
