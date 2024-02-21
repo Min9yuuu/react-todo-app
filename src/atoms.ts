@@ -29,6 +29,7 @@ export const toDoState = atom<IToDo[]>({
 export const currentCategoryState = atom({
   key: 'category',
   default: 'TO_DO',
+  effects_UNSTABLE: [persistAtom],
 });
 
 export const toDoSelector = selector({
